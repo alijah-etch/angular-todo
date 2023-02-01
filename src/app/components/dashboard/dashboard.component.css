@@ -1,0 +1,46 @@
+
+  h2 {
+    text-align: center;
+  }
+
+  .dashboard_heroes-menu {
+    padding: 0;
+    margin: auto;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+
+  a {
+    background-color: #3f525c;
+    border-radius: 2px;
+    padding: 1rem;
+    font-size: var(--main-font-size);
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    background-color: #e8e8e8;
+    color: #3d3d3d;
+    text-align: center;
+    width: 100%;
+    min-width: 70px;
+    margin: .5rem auto;
+    box-sizing: border-box;
+  }
+
+  @media (min-width: 600px) {
+    a {
+      width: 18%;
+      box-sizing: content-box;
+    }
+  }
+
+  a:hover {
+    color: white;
+    background-color: #42545C;
+  }

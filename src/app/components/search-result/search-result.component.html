@@ -1,0 +1,7 @@
+<ul class="search-result__container">
+    <li *ngFor="let hero of heroes | async" class="search-result">
+        <a routerLink="/detail/{{hero.id}}" class="search-result__link">
+            {{hero.name}}
+        </a>
+    </li>
+</ul>

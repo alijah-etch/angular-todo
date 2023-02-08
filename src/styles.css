@@ -1,6 +1,14 @@
 
     :root{
-        --main-font-size: 1.2rem; 
+        --main-font-size: 1.2rem;
+        --color-white: white;
+        --color-grey: grey;
+        --spacing: 1rem;
+        --spacing-small: .5rem;
+        --color-grey-200: #e8e8e8;
+        --color-grey-800: #3d3d3d;
+        --solid-border-size: 0.0625rem;
+        --max-width-size: 37.5rem;
     }
     
     h1 {

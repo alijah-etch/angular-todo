@@ -1,0 +1,17 @@
+
+    label {
+        display: block;
+        font-weight: bold;
+        font-size: var(--main-font-size);
+        margin-top: 1rem;
+    }
+
+    input {
+        max-width: 37.5rem;
+        margin-bottom: .5rem;
+    }
+    
+    input:focus {
+        outline: #336699 auto 0.0625rem;
+    }
+    

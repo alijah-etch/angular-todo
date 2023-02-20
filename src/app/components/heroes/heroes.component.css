@@ -1,0 +1,86 @@
+
+    .heroes {
+        margin: 0 0 2rem 0;
+        list-style-type: none;
+        padding: 0;
+        width: 15rem;
+    }
+    
+    input {
+        margin: 1rem 0;
+    }
+    
+    .heroes li {
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .heroes li:hover {
+        left: .1em;
+    }
+    
+    .heroes a {
+        color: #333;
+        text-decoration: none;
+        background-color: #EEE;
+        margin: .5rem;
+        padding: .3rem 0;
+        height: 1.6rem;
+        border-radius: .25rem;
+        display: block;
+        width: 100%;
+    }
+    
+    .heroes a:hover {
+        color: #2c3a41;
+        background-color: #e6e6e6;
+    }
+    
+    .heroes a:active {
+        background-color: #525252;
+        color: #fafafa;
+    }
+    
+    .heroes .badge {
+        display: inline-block;
+        font-size: small;
+        color: white;
+        padding: 0.8rem 0.7rem 0 0.7rem;
+        background-color: #405061;
+        line-height: 1rem;
+        position: relative;
+        left: -0.0625rem;
+        top: -.25rem;
+        height: 1.8rem;
+        min-width: 1rem;
+        text-align: right;
+        margin-right: .8rem;
+        border-radius: .25rem 0 0 .25rem;
+    }
+    
+    .add-button {
+        padding: .5rem 1.5rem;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .add-button:hover {
+        color: white;
+        background-color: #42545C;
+    }
+    
+    button.delete {
+        position: absolute;
+        left: 13.125rem;
+        top: .3125rem;
+        background-color: white;
+        color:  #525252;
+        font-size: var(--main-font-size);
+        margin: 0;
+        padding: .0625rem 0.625rem 0.1875rem 0.625rem;
+    }
+    
+    button.delete:hover {
+        background-color: #525252;
+        color: white;
+    }
